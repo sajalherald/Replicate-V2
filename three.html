@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Multiple Images with Paragraphs</title>
+	<style>
+		body {
+			background: rgb(255, 186, 0);
+		}
+		h1 {
+			text-align: center;
+		}
+		.container {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			align-items: center;
+			margin: 50px auto;
+			max-width: 1200px;
+		}
+		.image {
+			flex-basis: 30%;
+			margin: 10px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+		.image img {
+			max-width: 100%;
+			height: auto;
+			margin-bottom: 10px;
+		}
+		.image p {
+			text-align: center;
+		}
+        .item small {
+			font-size: 14px;
+			color: gray;}
+	</style>
+</head>
+<body>
+	<h1>Our 2025 Keynote Speakers</h1>
+
+	<div class="container">
+		<div class="image">
+			<img src=" img/image1.png" alt="Image 1">
+			<h2>Leslie Boatwright</h2>
+            <p>Head of Marketing <br> The Hobbibox</p>
+            <p><strong>September 16</strong></p>
+		</div>
+		<div class="image">
+			<img src="img/image2.png" alt="Image 2">
+			<h2>Nicholas Newark</h2>
+           <p>Director of Design <br> Studio Rallia</p>
+           <p><strong>September 17</strong></p>
+		</div>
+		<div class="img/image">
+			<img src="image3.png" alt="Image 3">
+			<h2>Kin Gyun </h2>
+                <p>Founder and CEO <br>  The Treasurebox Online</p>
+                <p><strong>September 17</strong></p>
+		</div>
+	</div>
+</body>
+</html>
